@@ -13,4 +13,8 @@ public class ClassesAndObjects {
 
   }
 
+  garfield.setFavoriteFood(lasagna);
+  pinkPanther.setFavoriteFood(pizza);
+  catwoman.setFavoriteFood(batman);
+
 }
