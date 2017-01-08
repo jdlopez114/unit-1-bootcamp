@@ -1,6 +1,4 @@
-/**
- * Created by alexandraqin on 4/14/15.
- */
+
 public class Variables {
 
     public static void main(String args[]) {
@@ -10,11 +8,11 @@ public class Variables {
     public static boolean isOdd(int number) {
     }
 
-    public static String printHelloWorld(String word){
+    public static String printHelloWorld(String word) {
 
     }
 
-    public static int greatestCommonFactor(int num){
+    public static int greatestCommonFactor(int num) {
 
     }
 

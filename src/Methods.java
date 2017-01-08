@@ -1,6 +1,4 @@
-/**
- * Created by alexandraqin on 4/14/15.
- */
+
 public class Methods {
 
     public static void main(String args[]) {
@@ -23,16 +21,17 @@ public class Methods {
     }
 
     public boolean isMultiple(int first, int second) {
-        if (second % first) {
-            return true
-        } return false;
+        if (second % first == 0) {
+            return true;
+        }
+        return false;
     }
 
     public void prettyInteger(int num) {
         System.out.println(("*" * num) + num + ("*" * num);
     }
 
-    public int random (int first, int second){
+    public int random(int first, int second) {
 
     }
 }
