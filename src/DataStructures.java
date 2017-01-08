@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DataStructures {
 
@@ -22,6 +24,31 @@ public class DataStructures {
 //            System.out.println(i);
 //        }
 //    }
+
+
+    // 3.
+    // Create a HashMap that maps the names of all the Access Coders in your Pod to their age.
+    // Use a loop to print each key-value pair of the HashMap.
+
+    public static void podHashMap() {
+        Map<String, Integer> podMap = new HashMap<>();
+        podMap.put("Josiel", 35);
+        podMap.put("Max", 35);
+        podMap.put("Eddie", 35);
+        podMap.put("Que", 35);
+        podMap.put("Ridita", 35);
+        podMap.put("Yojana", 35);
+        podMap.put("Asia", 35);
+
+        for(String key : podMap.keySet()){
+            System.out.println(key + " " + podMap.get(key));
+        }
+
+//        for (Map.Entry<String, Integer> entry : podMap.entrySet()) {
+//            System.out.println(entry.getKey() + "/" + entry.getValue());
+//        }
+    }
+
 
     // 6.
 
