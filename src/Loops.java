@@ -12,7 +12,7 @@ public class Loops {
     }
 
     public void printNumbers2() {
-        while (i < 11) {
+        while (int i < 11) {
             System.out.println(i);
         }
     }
